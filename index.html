@@ -8,13 +8,20 @@
     <title>Blockey Sports</title>
     <!-- Styles -->
     <link rel="stylesheet" href="./assets/styles/styles.css">
-    <link rel="stylesheet" href="./assets/styles/animation.css">
+    <link rel="stylesheet" href="./assets/styles/animation.css" defer>
 </head>
 
 <body class="font-jetbrains">
+    <!-- Background -->
     <div class="bg-map h-screen w-full">
     </div>
-    <div class="absolute top-0 w-full z-10">
+    <!-- Preloaded Images (to prevent flickering in background image slideshow animation) -->
+    <img src="./assets/images/map1.webp" alt="map1" class="hidden">
+    <img src="./assets/images/map2.webp" alt="map1" class="hidden">
+    <img src="./assets/images/map3.webp" alt="map1" class="hidden">
+    <img src="./assets/images/map4.webp" alt="map1" class="hidden">
+    <!-- Content -->
+    <main class="absolute top-0 w-full z-10">
         <div class="flex flex-col text-center w-full md:w-7/12 mx-auto py-20">
             <h1 class="text-6xl lg:text-8xl font-semibold text-white mb-10"
                 style="text-shadow: 5px 5px 20px black;">The Blockey Sports Network</h1>
@@ -23,9 +30,7 @@
             <img src="https://minotar.net/helm/f5d5c3019ad34cb49cfda6b78e67734a/600.png" alt="Flashee's head"
                  class="w-24 lg:w-36 rounded-lg shadow-lg mx-auto mt-20 hover:animate-wiggle">
         </div>
-    </div>
-
-
+    </main>
 </body>
 
 </html>
