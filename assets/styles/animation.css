@@ -9,7 +9,7 @@
 }
 
 .bg-map {
-    animation: map 10s ease infinite 3s;
+    animation: map 25s ease infinite 2s;
     background-image: url('../images/map1.webp'), url('../images/map2.webp');
 }
 
