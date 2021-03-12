@@ -11,6 +11,7 @@
 .bg-map {
     animation: map 25s ease infinite 2s;
     background-image: url('../images/map1.webp'), url('../images/map2.webp');
+    background-position: center;
 }
 
 @keyframes map {
